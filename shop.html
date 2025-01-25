@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIO FASHION STORE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="./asset/css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark py-0  ">
+            <div class="container">
+                <a class="navbar-brand text-white me-3" href="#">Welcome to DIO </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
+                    aria-controls="staticBackdrop" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
+                    aria-labelledby="staticBackdropLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="staticBackdropLabel">Offcanvas</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown ">
+                                <a class="nav-link active dropdown-toggle text-white me-2" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    currency
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">EURO</a></li>
+                                    <li><a class="dropdown-item" href="#">USD</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown ">
+                                <a class="nav-link active dropdown-toggle text-white me-2" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    language
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">English</a></li>
+                                    <li><a class="dropdown-item" href="#">Urdu</a></li>
+                                    <li><a class="dropdown-item" href="#">Arabic</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown ">
+                                <a class="nav-link active dropdown-toggle text-white me-2" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    My account
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">sign in</a></li>
+                                    <li><a class="dropdown-item" href="#">register</a></li>
+                                    <li><a class="dropdown-item" href="#">wishlist</a></li>
+                                </ul>
+                            </li>      
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg bg-body-light m-3">
+            <div class="container">
+                <a class="navbar-brand " href="#"><img src="asset/images/logo.jpg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
+                    aria-controls="staticBackdrop" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
+                    aria-labelledby="staticBackdropLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="staticBackdropLabel">Offcanvas</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active me-2" aria-current="page" href="index.html">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active me-2" href="shop.html">SHOP</a>
+                            </li>
+                            <li class="nav-item dropdown ">
+                                <a class="nav-link active dropdown-toggle me-2" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    COLLECTION
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="winter.html">Winter collection</a></li>
+                                    <li><a class="dropdown-item" href="summer.html">Summer collection</a></li>
+                                    <li><a class="dropdown-item" href="accessories.html">Accessories</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active me-2" href="blog.html">BLOG</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active me-2" href="contact.html">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="main">
+        <section class="single-banner">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <nav aria-label="breadcrumb" class="mx-auto">
+                            <ol class="breadcrumb mx-auto">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item" aria-current="page">Shop</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="shop">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4">
+                        <div class="lft-side">
+                            <div class="card-rounded p-3 mb-2 ">
+                                <h5>labelle</h5>
+                                <div class="accordion accordion-flush " id="Categoriestab">
+                                    <div class="accordion-item">
+                                      <p class="sidebar-first-acc">seape Postea</p>
+                                      <h2 class="accordion-header" id="Decoration">
+                                            <button class="accordion-button collapsed"type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#Decoration-tab"
+                                                aria-expanded="false" aria-controls="Decoration-tab">
+                                                Decoration
+                                            </button>
+                                        </h2>
+                                        <div id="Decoration-tab" class="accordion-collapse collapse"
+                                            aria-labelledby="Decoration" data-bs-parent="#Categoriestab">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li>Micado</li>
+                                                    <li>Bottle</li>
+                                                    <li>Lanterns</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="lighting">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#lighting-tab"
+                                                aria-expanded="false" aria-controls="lighting-tab">
+                                                lighting
+                                            </button>
+                                        </h2>
+                                        <div id="lighting-tab" class="accordion-collapse collapse"
+                                            aria-labelledby="lighting" data-bs-parent="#Categoriestab">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li>Micado</li>
+                                                    <li>Bottle</li>
+                                                    <li>Lanterns</li>
+                                                    <li>Basics</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="card-rounded p-3 mb-2">
+                                <h5>Filter By</h5>
+                                <div class="accordion accordion-flush" id="Categoriestab">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingOne">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#Categories"
+                                                aria-expanded="false" aria-controls="Categories">
+                                                Categories
+                                            </button>
+                                        </h2>
+                                        <div id="Categories" class="accordion-collapse collapse" aria-labelledby="sub1"
+                                            data-bs-parent="#Categoriestab">
+                                            <div class="accordion-body">
+                                                <!-- sub menu -->
+                                                <div class="accordion accordion-flush" id="accordionFlushExample">
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header" id="sub1">
+                                                            <button class="accordion-button collapsed" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#flush-collapseOne"
+                                                                aria-expanded="false" aria-controls="flush-collapseOne">
+                                                                Decoration
+                                                            </button>
+                                                        </h2>
+                                                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                                            aria-labelledby="sub1"
+                                                            data-bs-parent="#accordionFlushExample">
+                                                            <div class="accordion-body">
+                                                                <ul>
+                                                                    <li>Micado</li>
+                                                                    <li>Bottle</li>
+                                                                    <li>Lanterns</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header" id="LightOne">
+                                                            <button class="accordion-button collapsed" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#lig-tab"
+                                                                aria-expanded="false" aria-controls="lig-tab">
+                                                                Lighting
+                                                            </button>
+                                                        </h2>
+                                                        <div id="lig-tab" class="accordion-collapse collapse"
+                                                            aria-labelledby="LightOne"
+                                                            data-bs-parent="#accordionFlushExample">
+                                                            <div class="accordion-body">
+                                                                <ul>
+                                                                    <li>Micado</li>
+                                                                    <li>Bottle</li>
+                                                                    <li>Lanterns</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- sub menu -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+
+                            </div>
+                            <hr>
+                            <h5>Prices</h5>
+                            <input type="range" class="input-price-sidebar">
+                            <hr>
+                            <select class="form-select custom-form-control-2" aria-label="Default select example">
+                                <option value="1">Fashion Manufacturer</option>
+                                <option value="2">Lorem ipsum</option>
+                            </select>
+                            <hr>
+
+                            
+                        
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-8">
+                        <div class="rg-right">
+                            <h4><b>SHOP</b></h4>
+                            <div class="row justify-content-between mt-5 mb-3">
+                                <div class="col">
+                                    <div class="d-flex gap-2">
+                                        <i class="fa-solid fa-bars"></i>
+                                        <i class="fa-solid fa-list-ul"></i>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <select class="form-select custom-form-control" aria-label="Default select example">
+                                        <option value="1">Relevence</option>
+                                        <option value="2">New products first</option>
+                                        <option value="3">Name A to Z</option>
+                                        <option value="4">Name Z to A</option>
+                                        <option value="5">Cheapest first</option>
+                                        <option value="6">Most expensive one</option>
+                                        <option value="7">In stock first</option>
+                                        <option value="8">Random</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4" data-aos="zoom-in">
+                                    <div class="card mb-3">
+                                        <img src="asset/images/faded-short-sleeves-tshirt (2).jpg" class="card-img-top"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">card title</h5>
+                                            <p class="card-text"><b>$33</b></p>
+                                            <a href="#" class="btn btn-dark">buy now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4" data-aos="zoom-in">
+                                    <div class="card mb-3">
+                                        <img src="asset/images/blouse.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text"><b>$49</b></p>
+                                            <a href="#" class="btn btn-dark">buy now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4" data-aos="zoom-in">
+                                    <div class="card mb-3">
+                                        <img src="asset/images/printed-dress (2).jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text"><b>$23</b></p>
+                                            <a href="#" class="btn btn-dark">buy now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4"data-aos="zoom-in">
+                                    <div class="card mb-3">
+                                        <img src="asset/images/winter dress.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text"><b>$60</b></p>
+                                            <a href="#" class="btn btn-dark">buy now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4"data-aos="zoom-in">
+                                    <div class="card mb-3">
+                                        <img src="asset/images/printed-summer-dress (7).jpg" class="card-img-top"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text"><b>$55</b></p>
+                                            <a href="#" class="btn btn-dark">buy now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4"data-aos="zoom-in">
+                                    <div class="card mb-3">
+                                        <img src="asset/images/printed-summer-dress.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text"><b>$30</b></p>
+                                            <a href="#" class="btn btn-dark">buy now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4"data-aos="zoom-in">
+                                    <div class="card mb-3">
+                                        <img src="asset/images/printed-chiffon-dress (2).jpg" class="card-img-top"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text"><b>$20</b></p>
+                                            <a href="#" class="btn btn-dark">buy now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4"data-aos="zoom-in">
+                                    <div class="card mb-3">
+                                        <img src="asset/images/faded-short-sleeves.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text"><b>$40</b></p>
+                                            <a href="#" class="btn btn-dark">buy now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4"data-aos="zoom-in">
+                                    <div class="card mb-3">
+                                        <img src="asset/images/bag normal.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text"><b>$25</b></p>
+                                            <a href="#" class="btn btn-dark">buy now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4"data-aos="zoom-in">
+                                    <div class="card mb-3">
+                                        <img src="asset/images/printed-summer-dress (3).jpg" class="card-img-top"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text"><b>$29</b></p>
+                                            <a href="#" class="btn btn-dark">buy now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4"data-aos="zoom-in">
+                                    <div class="card mb-3">
+                                        <img src="asset/images/faded-short-sleeves-tshirt.jpg" class="card-img-top"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text"><b>$35</b></p>
+                                            <a href="#" class="btn btn-dark">buy now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4"data-aos="zoom-in">
+                                    <div class="card mb-3">
+                                        <img src="asset/images/printed-chiffon-dress.jpg" class="card-img-top"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text"><b>$22</b></p>
+                                            <a href="#" class="btn btn-dark">buy now</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Feel free to reach out to us with any questions or inquiries.</p>
+                <ul>
+                    <li><b>Phone:</b> +92 317 1205092</li>
+                    <li><b>Email:</b> Aptech@gmail.com</li>
+                    <li><b>Address:</b> nasir jump,korangi crossing</li>
+                </ul>
+            </div>
+
+
+            <div class="footer-section">
+                <h3> Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">shop</a></li>
+                    <li><a href="#products">category</a></li>
+                    <li><a href="#contact">blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#" class="social-icon" target="_blank">
+                        <img src="asset/images/facebook (1).png" alt="Facebook">
+                    </a>
+                    <a href="#" class="social-icon" target="_blank">
+                        <img src="asset/images/instagram.png" alt="Instagram">
+                    </a>
+                    <a href="#" class="social-icon" target="_blank">
+                        <img src="asset/images/twitter.png" alt="Twitter">
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="footer-section">
+                <h3>Stay Updated</h3>
+                <p>Sign up for our newsletter to get the latest fashion updates and exclusive offers.</p>
+                <form action="#" method="post">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="footer-bottom">
+            <p> 2025 DIO. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
+    </body>
+</html>

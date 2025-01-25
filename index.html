@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIO FASHION STORE</title>
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css">
+    <style>
+      .container{
+        font-size: small;
+      }
+  .header{
+    background-color: black;
+  padding: 5px;
+  }
+  .firstpara{
+    font-size: smaller;
+    font: 1em sans-serif;
+    margin: 8px;
+    color: white;
+}
+.slider{
+  position: relative;
+}
+.over{
+  position: absolute;
+  color: #FFFFFF;
+  bottom: 0%;
+   top: 100px;
+ left: 120px;
+}
+.oven::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+}
+.featsure{
+    background-image: url('asset/images/h2-bn-6.jpg');
+    min-height: 50vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 80px 0;
+  }
+  .featsure-2 {
+    background-image: url('asset/images/h2-bn-8.jpg');
+    min-height: 50vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 80px 0;
+    filter: brightness(90%)
+  }
+  .featsure .slide{
+    width: 90%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .space-between{
+    margin-top: 100px;
+  }
+  .IMAGE-HEADING{
+    color: white;
+    text-align: center;
+    font-family: 'Playfair Display',serif;
+  }
+  .promise{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.over{
+  display: flex;
+  flex-direction: column;
+    align-items: center;
+}
+.last-image-p{
+  color: white;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+.last-image-a{
+  color: white;
+  margin-left: 620px;
+  font-family: "Raleway", sans-serif;
+  font-size: smaller;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: left;
+  }
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 20px;
+  }
+  
+  .footer-section {
+    width: 25%;
+    padding: 20px;
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+  }
+  
+  .footer-section p {
+    margin-bottom: 15px;
+    font-size: 1em;
+    color: #bbb;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin: 10px 0;
+  }
+  
+  .footer-section a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-section a:hover {
+    color: #ff6b6b;  
+  }
+  
+  .social-links {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-icon img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .social-icon:hover {
+    opacity: 0.8;
+  }
+  
+
+  footer form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  footer input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  footer button {
+    padding: 10px;
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  footer button:hover {
+    background-color: #ff4d4d;
+  }
+  
+  
+  .footer-bottom {
+    background-color: #222;
+    color: #bbb;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9em;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  .demo {
+    min-height: 70vh;
+  }
+  .demo img{
+    width: 100%;
+  }
+  .hero{
+    min-height: calc(100vh - 250px);
+
+  }
+  .hero .content-sec{
+    width: 50%;
+  }
+.card-h{
+  margin-left: 275px;
+  font-family: "Raleway", sans-serif;
+  font-size: x-large;
+  color: #648480;
+}
+.card-h2 {
+  margin-left: 275px;
+  font-family: 'Playfair Display', serif;
+}
+.card-a{
+  color: white;
+  font-size: smaller;
+  margin-left: 275px;
+}
+.slider:hover {
+  filter: brightness(60%);
+  cursor: pointer;
+}
+.single-slider{
+  overflow: hidden;
+}
+  
+</style>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-dark py-0 ">
+        <div class="container">
+          <a class="navbar-brand text-white " href="#">Welcome to DIO </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop"  aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="staticBackdropLabel">Offcanvas</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link active dropdown-toggle text-white me-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          currency
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">EURO</a></li>
+                          <li><a class="dropdown-item" href="#">USD</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="nav-item dropdown ">
+                        <a class="nav-link active dropdown-toggle text-white me-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          language
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">English</a></li>
+                          <li><a class="dropdown-item" href="#">Urdu</a></li>
+                          <li><a class="dropdown-item" href="#">Arabic</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="nav-item dropdown ">
+                        <a class="nav-link active dropdown-toggle text-white me-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          My account
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">sign in</a></li>
+                          <li><a class="dropdown-item" href="#">register</a></li>
+                          <li><a class="dropdown-item" href="#">wishlist</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+              </div>
+            </div>
+        </div>
+      </nav>
+      <nav class="navbar navbar-expand-lg bg-body-light m-3">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="asset/images/logo.jpg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop"  aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="staticBackdropLabel">Offcanvas</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link active me-2" aria-current="page" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link active me-2" href="shop.html">SHOP</a>
+                        </li>
+                        <li class="nav-item dropdown ">
+                          <a class="nav-link active dropdown-toggle me-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            COLLECTION
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="winter.html">Winter collection</a></li>
+                            <li><a class="dropdown-item" href="summer.html">Summer collection</a></li>
+                            <li><a class="dropdown-item" href="accessories.html">Accessories</a></li>
+                          </ul>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link active me-2" href="blog.html">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link active me-2" href="contact.html">CONTACT</a>
+                        </li>
+                      </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+  </header>
+     
+
+<section class="hero">
+ <div class="single-slider">
+  <div class="slide">
+    <div class="card bg-dark text-white">
+      <img src="./asset/images/s1-1.jpg" class="card-img img-fluid" alt="...">
+      <div class="card-img-overlay d-flex ps-5 align-items-center">
+          <div class="content-sec">
+          <p class="card-h">The new minimal</p>
+          <h2 class="card-h2"><b>EXCLUSIVE <br> FASHION SINCE 1975</b></h2>
+          <a class="card-a">VIEW COLLECTION</a>
+        </div>
+      </div>
+    </div>
+   </div>
+  
+   <div class="slide">
+    <div class="card bg-dark text-white">
+      <img src="./asset/images/s-1-2.jpg" class="card-img img-fluid" alt="...">
+      <div class="card-img-overlay d-flex ps-5 align-items-center">
+          <div class="content-sec">
+          <p class="card-h">The new minimal</p>
+          <h2 class="card-h2"><b>EXCLUSIVE <br> FASHION SINCE 1975</b></h2>
+          <a class="card-a">VIEW COLLECTION</a>
+        </div>
+      </div>
+    </div>
+   </div>
+  
+
+ </div>
+</section>
+
+
+
+
+      <div class="container">
+  <div class="row">
+    <div class="col-md-4">
+
+      
+      <div style=" padding: 50px;">  
+        <div class="promise">
+        <img src="asset/images/cargo-ship.png" alt="" style="height: 30px;width: 30px; ">
+        <p>ONLINE SUPPORT 24/7</p>
+      </div>
+      </div>
+    </div>
+      
+<div class="  col-md-4">
+<div style=" padding: 50px;">
+  <div class="promise">
+  <img src="asset/images/time.png" alt="" style="height: 30px;width: 30px; ">
+  <p >FREE SHIPING ALL</p>
+</div>
+</div>
+</div>
+<div class=" col-md-4">
+<div style=" padding: 50px;">
+  <div class="promise">
+  <img src="asset/IMAGES/two-circular-counterclockwise-rotating-arrows-symbol.png" alt="" style="height: 30px;width: 30px;">
+  <p>PAYMENT AND SECURED</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="container-fluid mb-5">
+  <div class="row" style="margin-left: 15px;">
+    
+<div class="col-md-4">
+  <div class="slider">
+<img src="asset/IMAGES/h2-bn-1.jpg" alt=""  style="height: 400px; width: 400px;  filter: brightness(75%)  ">
+<div class="over">
+  <h1 style="font-family: 'Playfair Display',serif;"><b>WOMEN</b></h1>
+  <h2 style="font-family: 'Playfair Display',serif;">COLLECTION</h2>
+  <hr>
+  <a href="" style="color: #FFFFFF;">SHOP NOW</a>
+</div>
+</div>
+</div>
+
+
+<div class="col-md-4">
+  <div class="slider">
+  <img src="asset/IMAGES/h2-bn-2.jpg" alt="" style="height: 400px; width: 400px;  filter: brightness(75%)">
+  <div class="over">
+    <h1 style="font-family: 'Playfair Display',serif;"><b>MEN</b></h1>
+    <h2 style="font-family: 'Playfair Display',serif;">COLLECTION</h2>
+    <hr>
+    <a href="" style="color: #FFFFFF;">SHOW NOW</a>
+  </div>
+</div>
+  </div>
+  <div class="col-md-4">
+    <div class="slider">
+    <img src="asset/IMAGES/h2-bn-3.jpg" alt="" style="height: 400px; width: 400px;  filter: brightness(75%)">
+    <div class="over">
+      <h1 style="font-family: 'Playfair Display',serif;"><b>LABELLE</b></h1>
+      <h2 style="font-family: 'Playfair Display',serif;">ACCESSORIES</h2>
+      <hr>
+      <a href="" style="color: #FFFFFF;  ">SHOP NOW</a>
+    </div>
+    </div>
+  </div>
+
+
+</div>
+</div>
+
+
+<div class="container">
+  <div class="row align-items-center">
+    <div class="col-md-6">
+      <h4 style="margin-left: 278px;">TRAVEL IN FASHION</h4>
+            <h3 style="margin-left: 220px; color: #648683;">MEN STYLED OUTFITS</h3>
+            <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat neque exercitationem modi o</P>
+            <P><a href="" style="color: black;">check it out</a></P>
+    </div>
+<div class="col-md-6">
+  <img class="img-fluid" src="asset/IMAGES/h2-bn-4.jpg" alt="">
+</div>
+  </div>
+</div>
+<div class="container">
+  <div class="row align-items-center">
+    <div class="col-md-6">
+      <img class="img-fluid" src="asset/IMAGES/h2-bn-5.jpg" alt="">
+    </div>
+    <div class="col-md-6">
+      <h4 style="margin-right: 278px;">TRAVEL IN FASHION</h4>
+            <h3 style="margin-right: 220px; color: #648683;">MEN STYLED OUTFITS</h3>
+            <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat neque exercitationem modi o</P>
+            <P><a href="" style="color: black;">check it out</a></P>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="space-between"></div>
+<section class="featsure">
+  <h1 class="IMAGE-HEADING">FEATURED PRODUCT</h2>
+  <div class="container">
+      <div class="bg-white">
+      <div class="row mt-5">
+        <div class="card-slider">
+        <div class="slide mt-5">
+          <div class="card mb-3">
+            <img src="asset/images/blouse.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text"><b>$49</b></p>
+                <a href="#" class="btn btn-dark">buy now</a>
+            </div>
+        </div>
+        
+      </div>
+        <div class="slide mt-5">
+          <div class="card mb-3">
+            <img src="asset/images/printed-dress (2).jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text"><b>$38</b></p>
+                <a href="#" class="btn btn-dark">buy now</a>
+            </div>
+        </div>
+        
+      </div>
+        <div class="slide mt-5">
+          <div class="card mb-3">
+            <img src="asset/images/printed-summer-dress.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text"><b>$50</b></p>
+                <a href="#" class="btn btn-dark">buy now</a>
+            </div>
+        </div>
+        
+      </div>
+        <div class="slide mt-5">
+          <div class="card mb-3">
+            <img src="asset/images/winter dress.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text"><b>$30</b></p>
+                <a href="#" class="btn btn-dark">buy now</a>
+            </div>
+        </div>
+        
+      </div>
+        <div class="slide mt-5">
+          <div class="card mb-3">
+            <img src="asset/images/faded-short-sleeves-tshirt (2).jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text"><b>$55</b></p>
+                <a href="#" class="btn btn-dark">buy now</a>
+            </div>
+        </div>
+        
+      </div>
+
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="demo">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <h4 style="margin-left: 325px;">DEAL OF THE DAY</h4>
+              <h3 style="margin-left: 220px; color: #648683;">UPTO 30% ON DRESSES</h3>
+              <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat neque exercitationem mo</P>
+              <P><a href="" style="color: black;margin-left: 455px;">check it out</a></P>
+      </div>
+  <div class="col-md-6">
+    <img class="img-fluid" src="asset/images/h2-bn-7.jpg" alt="" >
+  </div>
+    </div>
+  </div>
+</section>
+
+<section class="featsure-2">
+  <h1 class="IMAGE-HEADING">LOREM IPSUM DOLOR SIT AMET</h2>
+    <P class="last-image-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet ea tenetur amet.</P>
+    <a href="" class="last-image-a">GET IN TOUCH</a>
+    <div class="container">
+      <div class="bg-white">
+      <div class="row mt-5">
+        
+    </div>
+    </div>
+  </div>
+</section>
+
+<div class="space-between"></div>
+
+<footer>
+  <div class="footer-container">
+  
+    <div class="footer-section">
+      <h3>Contact Us</h3>
+      <p>Feel free to reach out to us with any questions or inquiries.</p>
+      <ul>
+        <li><b>Phone:</b> +92 317 1205092</li>
+        <li><b>Email:</b> Aptech@gmail.com</li>
+        <li><b>Address:</b> nasir jump,korangi crossing</li>
+      </ul>
+    </div>
+
+    
+    <div class="footer-section">
+      <h3> Links</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#about">shop</a></li>
+        <li><a href="#products">category</a></li>
+        <li><a href="#contact">blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    
+    <div class="footer-section">
+      <h3>Follow Us</h3>
+      <div class="social-links">
+        <a href="#" class="social-icon" target="_blank">
+          <img src="asset/images/facebook (1).png" alt="Facebook">
+        </a>
+        <a href="#" class="social-icon" target="_blank">
+          <img src="asset/images/instagram.png" alt="Instagram">
+        </a>
+        <a href="#" class="social-icon" target="_blank">
+          <img src="asset/images/twitter.png" alt="Twitter">
+        </a>
+      </div>
+    </div>
+
+    
+    <div class="footer-section">
+      <h3>Stay Updated</h3>
+      <p>Sign up for our newsletter to get the latest fashion updates and exclusive offers.</p>
+      <form action="#" method="post">
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+
+  
+  <div class="footer-bottom">
+    <p> 2025 DIO. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+  $(document).ready(function(){
+      $('.card-slider').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        arrows: true,
+        dots: true,
+        speed: 300,
+        infinite: true,
+        autoplaySpeed: 5000,
+        autoplay: true,
+        responsive: [
+      {
+        breakpoint: 991,
+        settings: {
+          slidesToShow: 3,
+        }
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 1,
+        }
+      }
+    ]
+      });
+      $('.single-slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true,
+        dots: true,
+        speed: 300,
+        infinite: true,
+        autoplaySpeed: 5000,
+        autoplay: true,
+      });
+
+
+
+
+
+
+      
+    });
+</script>
+</body>
+</html>
